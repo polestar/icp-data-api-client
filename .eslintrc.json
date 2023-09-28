@@ -11,8 +11,7 @@
   },
   "rules": {
     "linebreak-style": ["error", "unix"],
-    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
-    "semi": ["error", "never"]
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }]
   },
   "globals": {
     "expect": true,

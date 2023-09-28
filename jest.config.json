@@ -1,0 +1,6 @@
+{
+  "testMatch": ["**/?(*.)+(spec|test).js"],
+  "transform": {
+    "^.+\\.jsx?$": "esbuild-jest"
+  }
+}
