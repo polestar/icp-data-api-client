@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sandborg71/data-api-client.git"
+    "url": "git+https://github.com/polestar/icp-data-api-client.git"
   },
   "keywords": [
     "serverless",

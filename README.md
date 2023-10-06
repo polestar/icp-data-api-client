@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/npm/l/data-api-client.svg)](https://www.npmjs.com/package/data-api-client)
 
 Fork and experimental upgrade (beta) to aws sdk version 3.
-https://github.com/sandborg71/data-api-client
+https://github.com/polestar/icp-data-api-client
 This fork is based on this issue comment: https://github.com/jeremydaly/data-api-client/issues/127#issuecomment-1438601922
 
 The **Data API Client** is a lightweight wrapper that simplifies working with the Amazon Aurora Serverless Data API by abstracting away the notion of field values. This abstraction annotates native JavaScript types supplied as input parameters, as well as converts annotated response data to native JavaScript types. It's basically a [DocumentClient](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/DocumentClient.html) for the Data API. It also promisifies the `AWS.RDSDataService` client to make working with `async/await` or Promise chains easier AND dramatically simplifies **transactions**.
